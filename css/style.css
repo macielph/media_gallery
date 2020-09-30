@@ -3,13 +3,11 @@ body {
   font-family: helvetica, "helvetica neue", arial, sans-serif
 }
 
-.img {
+img {
   width: 100%;
-  height: auto;
 }
 
 .grid-container {
-  width: 100%
   display: grid;
   grid-gap: 1em 1em;
   grid-template-columns: repeat(3, 1fr);
@@ -21,7 +19,7 @@ body {
 }
 
 .grid-container {
-  grid-template-areas: "pic1 pic2 pic3"
+  grid-template-areas: "pic1 pic2 pic3";
 }
 
 .topnav {
@@ -62,6 +60,11 @@ body {
 
 .one {
   grid-area: pic1;
+}
+
+.stoggie {
+  background-image: url("../img/a.jpg");
+  background-size: contain;
 }
 
 .two {
